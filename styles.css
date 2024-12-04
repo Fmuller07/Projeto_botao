@@ -1,0 +1,43 @@
+/* Definindo estilo básico para o corpo da página */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+/* Estilo para o botão */
+
+.meu-botao {
+    font-size: 15px;
+    /* Definir o tamanho da fonte */
+    padding: 10px 20px;
+    /* Padding para dar mais espaço no botão */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    border: 2px solid #007BFF;
+    /* Cor da borda */
+    background-color: #007BFF;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Cor do texto */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    transition: all 0.3s ease;
+    /* Transição suave para mudanças de estilo */
+}
+
+
+/* Efeito ao passar o mouse sobre o botão */
+
+.meu-botao:hover {
+    background-color: #0056b3;
+    /* Mudar o fundo ao passar o mouse */
+    color: #d4d4d4;
+    /* Mudar a cor da fonte ao passar o mouse */
+}
